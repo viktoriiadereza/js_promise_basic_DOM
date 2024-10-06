@@ -1,0 +1,2 @@
+document.addEventListener("DOMContentLoaded",function(){document.querySelector(".logo").addEventListener("click",function(){new Promise(function(e,t){var n=document.createElement("div");n.textContent="Promise was resolved!",n.classList.add("message"),e(n)}).then(function(e){document.body.appendChild(e)})}),new Promise(function(e,t){setTimeout(function(){var e=document.createElement("div");e.textContent="Promise was rejected!",e.classList.add("message","error-message"),t(e)},3e3)}).catch(function(e){document.body.appendChild(e)})});
+//# sourceMappingURL=index.50e88e26.js.map
